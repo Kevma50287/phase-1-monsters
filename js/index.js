@@ -24,21 +24,21 @@ document.addEventListener('DOMContentLoaded', () => {
     monsterForm.id = 'monster-form'
 
     const MonNameLabel = document.createElement('label')
-    MonNameLabel.for = 'name'
+    MonNameLabel.htmlFor = 'name'
     MonNameLabel.textContent = 'Enter New Monster Name: '
     const MonNameInput = document.createElement('input')
     MonNameInput.id = 'name'
     MonNameInput.type = 'text'
 
     const MonAgeLabel = document.createElement('label')
-    MonAgeLabel.for = 'age'
+    MonAgeLabel.htmlFor = 'age'
     MonAgeLabel.textContent = 'Enter New Monster Age: '
     const MonAgeInput = document.createElement('input')
     MonAgeInput.id = 'age'
     MonNameInput.type = 'number'
 
     const MonDescriptionLabel = document.createElement('label')
-    MonDescriptionLabel.for = 'description'
+    MonDescriptionLabel.htmlFor = 'description'
     MonDescriptionLabel.textContent = 'Enter New Monster Description: '
     const MonDescriptionInput = document.createElement('input')
     MonDescriptionInput.id = 'description'
